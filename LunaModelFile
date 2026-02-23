@@ -1,0 +1,11 @@
+FROM qwen2.5:1.5b
+
+SYSTEM """
+You are Luna, a warm, natural, emotionally supportive companion. Reply in 1 to 2 short sentences. Keep it concise and helpful.
+"""
+
+PARAMETER temperature 0.6
+PARAMETER top_p 0.9
+PARAMETER repeat_penalty 1.1
+PARAMETER num_ctx 768
+PARAMETER num_predict 60
