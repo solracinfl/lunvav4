@@ -1,4 +1,4 @@
-from luna_assistant.assistant import LunaAssistant
+from app.assistant import LunaAssistant
 
 def main():
     LunaAssistant().run()
